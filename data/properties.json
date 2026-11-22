@@ -1,0 +1,310 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Skyline Luxury Apartment",
+      "location": "Downtown Manhattan, New York",
+      "price": 850000,
+      "type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1200,
+      "image": "/src/assets/properties/property1.jpg",
+      "gallery": [
+        "/src/assets/properties/property1.jpg",
+        "/src/assets/properties/property4.jpg",
+        "/src/assets/properties/property6.jpg"
+      ],
+      "description": "Experience urban luxury at its finest in this stunning Skyline Luxury Apartment. Featuring floor-to-ceiling windows with breathtaking city views, this modern residence offers an open-concept living space with premium finishes. The gourmet kitchen boasts quartz countertops and stainless steel appliances. The master suite includes a walk-in closet and spa-like en-suite bathroom. Building amenities include a rooftop pool, fitness center, and 24/7 concierge service.",
+      "amenities": [
+        "Swimming Pool",
+        "Fitness Center",
+        "24/7 Security",
+        "Parking",
+        "Elevator",
+        "Air Conditioning",
+        "Balcony",
+        "Pet Friendly"
+      ],
+      "agent": {
+        "name": "Sarah Mitchell",
+        "phone": "+1 (555) 123-4567",
+        "email": "sarah.mitchell@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop"
+      },
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Modern Family Estate",
+      "location": "Beverly Hills, Los Angeles",
+      "price": 2500000,
+      "type": "House",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area": 4500,
+      "image": "/src/assets/properties/property2.jpg",
+      "gallery": [
+        "/src/assets/properties/property2.jpg",
+        "/src/assets/properties/property5.jpg",
+        "/src/assets/properties/property8.jpg"
+      ],
+      "description": "This magnificent Modern Family Estate in prestigious Beverly Hills offers the ultimate in luxury living. The home features soaring ceilings, expansive living areas, and seamless indoor-outdoor flow. The chef's kitchen is equipped with top-of-the-line appliances and a large island. The primary suite is a true retreat with a fireplace, sitting area, and luxurious bathroom. The landscaped grounds include a pool, outdoor kitchen, and guest house.",
+      "amenities": [
+        "Swimming Pool",
+        "Garden",
+        "Garage",
+        "Fireplace",
+        "Home Office",
+        "Wine Cellar",
+        "Smart Home System",
+        "Gated Entry"
+      ],
+      "agent": {
+        "name": "Michael Chen",
+        "phone": "+1 (555) 234-5678",
+        "email": "michael.chen@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop"
+      },
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Oceanfront Paradise Villa",
+      "location": "Miami Beach, Florida",
+      "price": 4200000,
+      "type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "area": 5800,
+      "image": "/src/assets/properties/property3.jpg",
+      "gallery": [
+        "/src/assets/properties/property3.jpg",
+        "/src/assets/properties/property1.jpg",
+        "/src/assets/properties/property6.jpg"
+      ],
+      "description": "Discover paradise in this breathtaking Oceanfront Villa on Miami Beach. This architectural masterpiece offers direct beach access and panoramic ocean views from every room. The infinity pool appears to merge with the Atlantic Ocean. The interior features imported marble, custom millwork, and designer lighting. The outdoor living space includes multiple terraces, an outdoor kitchen, and a private beach area.",
+      "amenities": [
+        "Private Beach",
+        "Infinity Pool",
+        "Outdoor Kitchen",
+        "Home Theater",
+        "Spa",
+        "Boat Dock",
+        "Panoramic Views",
+        "Climate Control"
+      ],
+      "agent": {
+        "name": "Isabella Rodriguez",
+        "phone": "+1 (555) 345-6789",
+        "email": "isabella.rodriguez@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop"
+      },
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Industrial Chic Loft",
+      "location": "SoHo, New York",
+      "price": 1200000,
+      "type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 950,
+      "image": "/src/assets/properties/property4.jpg",
+      "gallery": [
+        "/src/assets/properties/property4.jpg",
+        "/src/assets/properties/property1.jpg",
+        "/src/assets/properties/property9.jpg"
+      ],
+      "description": "This stunning Industrial Chic Loft in the heart of SoHo combines historic character with modern luxury. Exposed brick walls, original hardwood floors, and massive industrial windows create an authentic loft experience. The open floor plan is perfect for entertaining, while the updated kitchen and bathroom offer contemporary comfort. Located in a converted warehouse building with original freight elevator.",
+      "amenities": [
+        "Exposed Brick",
+        "High Ceilings",
+        "Original Hardwood",
+        "Rooftop Access",
+        "Bike Storage",
+        "Intercom",
+        "High-Speed Internet",
+        "Pet Friendly"
+      ],
+      "agent": {
+        "name": "David Park",
+        "phone": "+1 (555) 456-7890",
+        "email": "david.park@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop"
+      },
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Countryside Stone Cottage",
+      "location": "Cotswolds, England",
+      "price": 680000,
+      "type": "House",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1800,
+      "image": "/src/assets/properties/property5.jpg",
+      "gallery": [
+        "/src/assets/properties/property5.jpg",
+        "/src/assets/properties/property2.jpg",
+        "/src/assets/properties/property8.jpg"
+      ],
+      "description": "Escape to the English countryside in this charming stone cottage in the Cotswolds. This historic home has been lovingly restored with modern amenities while preserving its original character. Features include exposed beams, a stone fireplace, and a country kitchen with Aga stove. The mature gardens include a vegetable patch, fruit trees, and a charming patio for al fresco dining.",
+      "amenities": [
+        "Fireplace",
+        "Garden",
+        "Country Kitchen",
+        "Parking",
+        "Period Features",
+        "Workshop",
+        "Greenhouse",
+        "Rural Views"
+      ],
+      "agent": {
+        "name": "Emma Thompson",
+        "phone": "+44 20 7123 4567",
+        "email": "emma.thompson@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop"
+      },
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Penthouse Sky Suite",
+      "location": "Dubai Marina, Dubai",
+      "price": 5800000,
+      "type": "Apartment",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 3200,
+      "image": "/src/assets/properties/property6.jpg",
+      "gallery": [
+        "/src/assets/properties/property6.jpg",
+        "/src/assets/properties/property1.jpg",
+        "/src/assets/properties/property3.jpg"
+      ],
+      "description": "Live above it all in this extraordinary Penthouse Sky Suite in Dubai Marina. This ultra-luxury residence offers 360-degree views of the city skyline and Arabian Gulf. The interior features Italian marble, custom Italian cabinetry, and smart home technology. The private terrace includes a plunge pool and outdoor entertaining area. Building amenities include a spa, private cinema, and helipad access.",
+      "amenities": [
+        "Private Pool",
+        "Smart Home",
+        "Concierge",
+        "Spa Access",
+        "Private Cinema",
+        "Helipad",
+        "Panoramic Views",
+        "Valet Parking"
+      ],
+      "agent": {
+        "name": "Ahmed Hassan",
+        "phone": "+971 4 123 4567",
+        "email": "ahmed.hassan@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+      },
+      "featured": true
+    },
+    {
+      "id": 7,
+      "title": "Urban Townhouse",
+      "location": "Brooklyn, New York",
+      "price": 1450000,
+      "type": "House",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 2100,
+      "image": "/src/assets/properties/property7.jpg",
+      "gallery": [
+        "/src/assets/properties/property7.jpg",
+        "/src/assets/properties/property4.jpg",
+        "/src/assets/properties/property9.jpg"
+      ],
+      "description": "This stunning Urban Townhouse in trendy Brooklyn offers the perfect blend of city living and residential comfort. The contemporary design features an open-concept main floor with a chef's kitchen and dining area. The rooftop terrace provides views of the Manhattan skyline. The home includes a private garage, finished basement, and custom built-ins throughout.",
+      "amenities": [
+        "Rooftop Terrace",
+        "Private Garage",
+        "Finished Basement",
+        "Chef's Kitchen",
+        "Skylights",
+        "Custom Built-ins",
+        "Near Subway",
+        "Pet Friendly"
+      ],
+      "agent": {
+        "name": "Jessica Williams",
+        "phone": "+1 (555) 567-8901",
+        "email": "jessica.williams@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
+      },
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Alpine Mountain Lodge",
+      "location": "Aspen, Colorado",
+      "price": 3200000,
+      "type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area": 4200,
+      "image": "/src/assets/properties/property8.jpg",
+      "gallery": [
+        "/src/assets/properties/property8.jpg",
+        "/src/assets/properties/property2.jpg",
+        "/src/assets/properties/property5.jpg"
+      ],
+      "description": "Experience mountain luxury in this stunning Alpine Lodge in Aspen. This architectural masterpiece features massive timber construction, stone accents, and walls of glass framing mountain views. The great room includes a soaring fireplace and gourmet kitchen. The outdoor spaces include multiple decks, a hot tub, and fire pit. Ski-in/ski-out access to world-class slopes.",
+      "amenities": [
+        "Ski Access",
+        "Hot Tub",
+        "Fire Pit",
+        "Mountain Views",
+        "Wine Cellar",
+        "Game Room",
+        "Heated Floors",
+        "Snow Melt Driveway"
+      ],
+      "agent": {
+        "name": "Robert Johnson",
+        "phone": "+1 (555) 678-9012",
+        "email": "robert.johnson@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+      },
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "Minimalist Studio",
+      "location": "Shibuya, Tokyo",
+      "price": 450000,
+      "type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 450,
+      "image": "/src/assets/properties/property9.jpg",
+      "gallery": [
+        "/src/assets/properties/property9.jpg",
+        "/src/assets/properties/property4.jpg",
+        "/src/assets/properties/property1.jpg"
+      ],
+      "description": "Experience Tokyo living in this beautifully designed Minimalist Studio in vibrant Shibuya. This efficiently designed space maximizes every square foot with built-in storage, a Murphy bed, and a compact but fully-equipped kitchen. Floor-to-ceiling windows offer city views and abundant natural light. The building includes a shared rooftop terrace and is steps from shopping, dining, and transit.",
+      "amenities": [
+        "Built-in Storage",
+        "Murphy Bed",
+        "City Views",
+        "Rooftop Terrace",
+        "Near Transit",
+        "High-Speed Internet",
+        "Laundry Facility",
+        "Bicycle Parking"
+      ],
+      "agent": {
+        "name": "Yuki Tanaka",
+        "phone": "+81 3 1234 5678",
+        "email": "yuki.tanaka@nlp-real-estate.com",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop"
+      },
+      "featured": false
+    }
+  ]
+}

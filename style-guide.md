@@ -1,80 +1,52 @@
-# Essential Stuff
+# Brand Style Guide
 
-## Html import links
+## Brand Color Palette (from Design Specification)
 
-Google font
+| Color Name | Hex Code | HSL Representation | Primary Usage |
+| :--- | :--- | :--- | :--- |
+| **Navy Blue** | `#1E3A5F` | `hsl(214, 52%, 25%)` | Primary brand color, headers, CTAs, active states, key accents |
+| **Greige** | `#CFC8BE` | `hsl(35, 16%, 78%)` | Warm luxury neutral, secondary buttons, tags, subtle borders, highlights |
+| **White** | `#FFFFFF` | `hsl(0, 0%, 100%)` | Card backgrounds, hero typography, clean surface areas |
+| **Light Gray** | `#E5E7EB` | `hsl(220, 13%, 91%)` | Page canvas, soft backgrounds, separators, input borders |
+| **Charcoal** | `#374151` | `hsl(217, 19%, 27%)` | High-contrast typography, body text, dark mode surfaces |
 
-``` html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-  rel="stylesheet">
-```
+## CSS Custom Variables
 
-Ionicon
+```css
+:root {
+  --navy-blue: #1E3A5F;
+  --greige: #CFC8BE;
+  --white: #FFFFFF;
+  --light-gray: #E5E7EB;
+  --charcoal: #374151;
 
-``` html
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-```
+  --background: 220 13% 96%;
+  --foreground: 217 19% 27%;
+  --primary: 214 52% 25%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 35 16% 78%;
+  --secondary-foreground: 214 52% 25%;
+  --card: 0 0% 100%;
+  --card-foreground: 217 19% 27%;
+  --border: 220 13% 88%;
+}
 
----
-
-## Colors
-
-``` css
---dark-jungle-green: hsl(188, 63%, 7%);
---prussian-blue: hsl(200, 69%, 14%);
---raisin-black-1: hsl(227, 29%, 13%);
---raisin-black-2: hsl(229, 17%, 19%);
---yellow-green: hsl(89, 72%, 45%);
---orange-soda: hsl(9, 100%, 62%);
---cultured-1: hsl(0, 0%, 93%);
---cultured-2: hsl(192, 24%, 96%);
---misty-rose: hsl(7, 56%, 91%);
---alice-blue: hsl(210, 100%, 97%);
---seashell: hsl(8, 100%, 97%);
---cadet: hsl(200, 15%, 43%);
---white: hsl(0, 0%, 100%);
---black: hsl(0, 0%, 0%);
---opal: hsl(180, 20%, 62%);
+.dark {
+  --background: 215 35% 10%;
+  --foreground: 220 13% 94%;
+  --primary: 35 16% 78%;
+  --primary-foreground: 214 52% 20%;
+  --secondary: 214 35% 22%;
+  --secondary-foreground: 220 13% 94%;
+  --card: 215 30% 15%;
+  --card-foreground: 220 13% 96%;
+  --border: 215 25% 22%;
+}
 ```
 
 ## Typography
 
-``` css
+```css
 --ff-nunito-sans: "Nunito Sans", sans-serif;
 --ff-poppins: "Poppins", sans-serif;
-
---fs-1: 1.875rem;
---fs-2: 1.5rem;
---fs-3: 1.375rem;
---fs-4: 1.125rem;
---fs-5: 0.875rem;
---fs-6: 0.813rem;
---fs-7: 0.75rem;
-
---fw-500: 500;
---fw-600: 600;
---fw-700: 700;
-```
-
-## Transition
-
-``` css
---transition: 0.25s ease;
-```
-
-## Spacing
-
-``` css
---section-padding: 100px;
-```
-
-## Shadow
-
-``` css
---shadow-1: 0 5px 20px 0 hsla(219, 56%, 21%, 0.1);
---shadow-2: 0 16px 32px hsla(188, 63%, 7%, 0.1);
 ```

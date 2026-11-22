@@ -1,57 +1,37 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/homeverse)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/homeverse?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/homeverse?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/6HZ4nZmU_pE?style=social)](https://youtu.be/6HZ4nZmU_pE)
+# NLP Real Estate
 
-  <br />
-  <br />
-  
-  <img src="./readme-images/project-logo.png" />
+A React, TypeScript, and Vite luxury real-estate listings platform.
 
-  <h2 align="center">Homeverse - Real estate website</h2>
+## Color Palette
 
-  Homeverse is fully responsive Real estate website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+The interface is styled using a modern, luxury color combination:
 
-  <a href="https://codewithsadee.github.io/homeverse/"><strong>➥ Live Demo</strong></a>
+| Swatch | Color | Hex | Role |
+| :--- | :--- | :--- | :--- |
+| ![#1E3A5F](https://via.placeholder.com/15/1E3A5F/000000?text=+) | **Navy Blue** | `#1E3A5F` | Primary brand color, headers, CTAs, buttons |
+| ![#CFC8BE](https://via.placeholder.com/15/CFC8BE/000000?text=+) | **Greige** | `#CFC8BE` | Warm luxury neutral, badges, accents |
+| ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) | **White** | `#FFFFFF` | Crisp card surfaces, typography contrast |
+| ![#E5E7EB](https://via.placeholder.com/15/E5E7EB/000000?text=+) | **Light Gray** | `#E5E7EB` | Canvas background, borders, inputs |
+| ![#374151](https://via.placeholder.com/15/374151/000000?text=+) | **Charcoal** | `#374151` | High-contrast typography, body text |
 
-</div>
+## Features & Dataset Utilization
 
-<br />
+- **Complete Dataset Utilization**: Indexes all 9 curated properties across Manhattan, Beverly Hills, Miami, SoHo, Dubai, Aspen, Tokyo, and the Cotswolds.
+- **9 Dedicated Certified Advisors**: Interactive advisor profiles and confidential inquiry dispatch system.
+- **Dynamic Search & Filtering**: Location autocomplete, property type tabs, minimum bedroom filters, and budget sliders.
+- **Dark Mode Support**: Seamless toggle between Light and Dark luxury themes.
 
-### Demo Screeshots
-
-![homeverse Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-![homeverse Mobile Demo](./readme-images/mobile.png "Mobile Demo")
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Homeverse** locally, run this command on your git bash:
-
-Linux and macOS:
+## Run locally
 
 ```bash
-sudo git clone https://github.com/codewithsadee/homeverse.git
+npm install
+npm run dev
 ```
 
-Windows:
+## Validate and build
 
 ```bash
-git clone https://github.com/codewithsadee/homeverse.git
+npm run typecheck
+npm run build
+npm run preview
 ```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-### License
-
-This project is **free to use** and does not contains any license.

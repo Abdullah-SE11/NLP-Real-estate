@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Rounded Background Container in Navy Blue -->
+  <rect width="100" height="100" rx="22" fill="#1E3A5F"/>
+  <!-- Elegant Architectural Roof Lines in Greige -->
+  <path d="M50 18L18 44H30V78C30 80.2 31.8 82 34 82H66C68.2 82 70 80.2 70 78V44H82L50 18Z" fill="#FFFFFF" fill-opacity="0.12" stroke="#CFC8BE" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Front Facade in Crisp White -->
+  <path d="M36 46H64V82H36V46Z" fill="#FFFFFF"/>
+  <!-- Door Accent in Navy Blue -->
+  <path d="M44 60H56V82H44V60Z" fill="#1E3A5F"/>
+  <!-- Modern Window in Greige -->
+  <rect x="42" y="32" width="16" height="10" rx="2" fill="#CFC8BE"/>
+  <!-- Door Handle in Greige -->
+  <circle cx="53" cy="71" r="1.5" fill="#CFC8BE"/>
+</svg>

@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Palette: Navy #1E3A5F, Greige #CFC8BE, White #FFFFFF, Light Gray #E5E7EB, Charcoal #374151 */
+    --background: 220 13% 96%;
+    --foreground: 217 19% 27%;
+    --card: 0 0% 100%;
+    --card-foreground: 217 19% 27%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 19% 27%;
+    --primary: 214 52% 25%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 35 16% 78%;
+    --secondary-foreground: 214 52% 25%;
+    --muted: 220 13% 91%;
+    --muted-foreground: 217 15% 45%;
+    --accent: 35 20% 90%;
+    --accent-foreground: 214 52% 25%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 86%;
+    --input: 220 13% 86%;
+    --ring: 214 52% 25%;
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 217 19% 27%;
+    --sidebar-primary: 214 52% 25%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 35 16% 92%;
+    --sidebar-accent-foreground: 214 52% 25%;
+    --sidebar-border: 220 13% 86%;
+    --sidebar-ring: 214 52% 25%;
+  }
+
+  .dark {
+    --background: 215 35% 10%;
+    --foreground: 220 13% 95%;
+    --card: 215 30% 15%;
+    --card-foreground: 220 13% 95%;
+    --popover: 215 30% 15%;
+    --popover-foreground: 220 13% 95%;
+    --primary: 35 16% 78%;
+    --primary-foreground: 214 52% 18%;
+    --secondary: 214 35% 22%;
+    --secondary-foreground: 220 13% 95%;
+    --muted: 215 25% 18%;
+    --muted-foreground: 217 15% 65%;
+    --accent: 214 30% 20%;
+    --accent-foreground: 35 16% 85%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 25% 22%;
+    --input: 215 25% 22%;
+    --ring: 35 16% 78%;
+
+    --sidebar-background: 215 35% 10%;
+    --sidebar-foreground: 220 13% 90%;
+    --sidebar-primary: 35 16% 78%;
+    --sidebar-primary-foreground: 214 52% 18%;
+    --sidebar-accent: 214 35% 22%;
+    --sidebar-accent-foreground: 220 13% 95%;
+    --sidebar-border: 215 25% 22%;
+    --sidebar-ring: 35 16% 78%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CFC8BE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1E3A5F;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #CFC8BE;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.property-location .MuiOutlinedInput-root {
+  height: 2.75rem;
+  border-radius: 0.625rem;
+  background: #f7f9f7;
+  color: #182c28;
+  font: inherit;
+  font-size: 0.875rem;
+}
+
+.property-location .MuiOutlinedInput-notchedOutline {
+  border-color: #dbe4de;
+}
+
+.property-location .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #126553;
+}
+
+.property-location-options.MuiPaper-root {
+  font: inherit;
+  font-size: 0.875rem;
+}
+
+.dark .property-location .MuiOutlinedInput-root,
+.dark .property-location .MuiIconButton-root,
+.dark .property-location-options.MuiPaper-root {
+  background-color: #15211e;
+  color: #fff;
+}
+
+.dark .property-location .MuiOutlinedInput-notchedOutline {
+  border-color: #405650;
+}
+
+.dark .property-location .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #8dd8c0;
+}
+
+.dark .property-location-options .MuiAutocomplete-option.Mui-focused,
+.dark .property-location-options .MuiAutocomplete-option[aria-selected="true"] {
+  background: #30483e;
+}
+
+/* A CSS-only adaptation of React Bits Glare Hover for listing photos. */
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .property-photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(110deg, transparent 38%, rgb(255 255 255 / 18%) 50%, transparent 62%);
+    transform: translateX(-100%);
+  }
+
+  .group:hover .property-photo::after {
+    transform: translateX(100%);
+    transition: transform 650ms ease-out;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
